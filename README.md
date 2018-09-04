@@ -19,11 +19,11 @@ allprojects {
  ```
 ```
 dependencies {
-	        implementation 'com.github.GOGJIAN:GesturePlane:1.0'
+	        implementation 'com.github.GOGJIAN:GesturePlane:v1.0'
 	}
 ```
 ## 使用
-###在xml中添加组件
+### 在xml中添加组件
 ```
 <com.jianjian.gestureplane.gestureLogin.gesturePasswordView.GesturePlane
         android:id="@+id/gesture"
@@ -41,7 +41,7 @@ dependencies {
         app:color_incorrect_background=""
         app:color_incorrect_center=""
 ```
-###在代码中使用
+### 在代码中使用
 ```
 private GesturePlane mGesturePlane;
 
