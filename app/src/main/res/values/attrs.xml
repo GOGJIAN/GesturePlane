@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GesturePlane">
+        <attr name="count" format="integer"/>
+        <attr name="color_no_finger" format="color"/>
+        <attr name="color_finger_on_center" format="color"/>
+        <attr name="color_finger_on_background" format="color"/>
+        <attr name="color_incorrect_center" format="color"/>
+        <attr name="color_incorrect_background" format="color"/>
+        <attr name="point_area_width" format="dimension"/>
+        <attr name="point_area_height" format="dimension"/>
+    </declare-styleable>
+</resources>
