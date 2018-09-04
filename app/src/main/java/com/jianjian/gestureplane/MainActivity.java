@@ -4,7 +4,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Toast;
 
-import com.jianjian.gestureplane.gestureLogin.gesturePasswordView.GesturePlane;
+import com.jianjian.gestureview.GesturePlane;
+
 
 public class MainActivity extends AppCompatActivity {
 

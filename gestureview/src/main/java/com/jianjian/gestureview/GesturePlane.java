@@ -1,4 +1,4 @@
-package com.jianjian.gestureplane.gestureLogin.gesturePasswordView;
+package com.jianjian.gestureview;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -12,7 +12,6 @@ import android.view.MotionEvent;
 import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 
-import com.jianjian.gestureplane.R;
 
 import org.apache.commons.lang3.concurrent.BasicThreadFactory;
 

@@ -1,4 +1,4 @@
-package com.jianjian.gestureplane.gestureLogin.gesturePasswordView;
+package com.jianjian.gestureview;
 
 import android.content.Context;
 import android.graphics.Canvas;

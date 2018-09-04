@@ -25,7 +25,7 @@ dependencies {
 ## 使用
 ### 在xml中添加组件
 ```
-<com.jianjian.gestureplane.gestureLogin.gesturePasswordView.GesturePlane
+<com.jianjian.gestureview.gesturePasswordView.GesturePlane
         android:id="@+id/gesture"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
