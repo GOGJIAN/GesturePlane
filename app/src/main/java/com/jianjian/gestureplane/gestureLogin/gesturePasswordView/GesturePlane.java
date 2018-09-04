@@ -34,6 +34,7 @@ public class GesturePlane extends RelativeLayout {
     private int mPointViewWidth;
     private int mPointViewMargin;
     private int mCount;
+    private int mLineWidth = 20;
     private int mCountSum;
     private int mNoFingerColor = 0xFFD8D8D8;
     private int mFingerOnCenterColor = 0xFF6aa0ff;
@@ -77,6 +78,7 @@ public class GesturePlane extends RelativeLayout {
         mIncorrectBackgroundColor = array.getColor(R.styleable.GesturePlane_color_incorrect_background, mIncorrectBackgroundColor);
         mDrawWidth = array.getDimension(R.styleable.GesturePlane_point_area_width, mDrawWidth);
         mDrawHeight = array.getDimension(R.styleable.GesturePlane_point_area_height, mDrawHeight);
+        mLineWidth = array.getInteger(R.styleable.GesturePlane_line_width, 20);
         array.recycle();
         mPath = new Path();
         //画笔初始化
@@ -102,7 +104,7 @@ public class GesturePlane extends RelativeLayout {
         int height = (int)(mDrawHeight == 0f ? mHeight : mDrawHeight);
         mPointViewWidth = (int) (width / mCountSum * 5f);
         mPointViewMargin = (int) (height / mCountSum * 4f);
-        mPaint.setStrokeWidth(mPointViewWidth / 20f);
+        mPaint.setStrokeWidth(mPointViewWidth / mLineWidth);
         if (mPointViewArray == null) {
             mPointViewArray = new PointView[mCount * mCount];
             for (int i = 0; i < mPointViewArray.length; i++) {
